@@ -1,0 +1,606 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(12, 9, 9); 
+     color: #fff;
+     overflow-x: hidden; 
+}
+nav {  
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+.navitem {
+    display: inline-block;
+    margin: 0 20px;
+    color: #fff;
+    position: relative;
+    left: 600px;
+    bottom: 50px;
+}
+.caret {
+    fill: #fff;
+    position: relative;
+    top: 3px;
+}
+.section1 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+.designer {
+    position: relative;
+    left: 50px;
+}
+.right1 {
+    width: 500px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+.right1 h3 {
+    color: rgb(181, 37, 37);
+}
+.right1 h1 {
+    font-size: 50px;
+}
+.right1 p {
+    line-height: 1.6;
+}
+button {
+    padding: 10px 20px;
+    background-color: rgb(181, 37, 37);
+    color: #fff;
+    cursor: pointer; 
+}
+.section2 {
+    background: linear-gradient(to right, rgb(21, 21, 21) 0%, rgb(21, 21, 21) 50%,#000 50%,#000 100%);
+}
+.upper {
+    display: flex;
+}
+.box {
+    width:300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+a:link {
+    text-decoration: none;  
+}
+.link {
+    border: none;
+}
+.a1 {
+    background-color: rgb(40, 39, 39);
+    border: none;
+}
+a {
+    color:rgb(181, 37, 37);
+}
+.arrow {
+    position: relative;
+    top: 4px;
+    fill: rgb(181, 37, 37);
+}
+.b1 {
+    background-color:rgb(40, 39, 39);
+    position: relative;
+    left: 70px;
+}
+.b2 {
+    background-color: rgb(181, 37, 37) ;
+}
+.a22 {
+    color: #fff;
+}
+.white {
+    fill:#fff;
+}
+.a3 {
+    background-color:rgb(40, 39, 39);
+}
+.b3 {
+    background-color: rgb(40, 39, 39);  
+    position: relative;
+    right: 70px;
+}
+.imgsvg {
+    position: relative;
+    left: 50px;
+}
+.box h1,p,button {
+    position: relative;
+    left: 50px;
+}
+.lower {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 150px;
+}
+.years {
+    position: relative;
+    left: 220px;
+    top: 80px; 
+    padding-top: 120px;  
+}
+.years h1 {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(181, 37, 37) ;
+    text-shadow: 2px 0px 2px;
+}
+.years h3 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+.fourboxes {
+    position: relative;
+    left: 300px;
+}
+.up {
+    display: flex;
+    margin-top: 70px;
+}
+.down {
+    display: flex;
+}
+.z {
+   
+    width: 300px;
+    height: 100px;
+    background-color: rgb(40, 39, 39);
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+.ye {
+    position: relative;
+    left: 10px;
+}
+.project {
+    position: relative;
+    top: 10px;
+}
+.Achievements {
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.z h1 {
+    color: rgb(181, 37, 37) ;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    bottom: 10px;
+}
+.z h3 {
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    font-weight: 500;
+}
+.header3 {
+    position: relative;
+    left: 150px;  
+}
+.header3 h3 {
+    font-weight: 100;
+    font-size: 15px;
+}
+.header3 h1 {
+    font-size: 20px;
+}
+.btn3 {
+    position: relative;
+    bottom: 50px;
+    left: 720px; 
+}
+.imgup {
+    display: flex;
+    position: relative;
+    left: 130px;
+}
+.imgdown {
+    display: flex;
+    position: relative;
+    left: 130px;
+}
+.forbg {
+    background-color: rgb(40, 39, 39);
+    width: 470px;
+    height: 350px;
+}
+.pic {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    right: 10px;
+}
+.p11 {
+    position: relative;
+    left: 20px;
+}
+
+.p22 {
+    position: relative;
+    left: 40px;
+}
+.p33 {
+    position: relative;
+    left: 20px;
+}
+.p44 {
+    position: relative;
+    left: 40px;
+} 
+.pics h1 {
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+}
+
+ .two h1 {
+    position: relative;
+    left: 40px;
+} 
+.button {
+    position: relative;
+    right: 50px;
+    bottom: 8px;
+}
+ .four h1 {
+    position: relative;
+    left: 40px;
+} 
+.two .button {
+    position: relative;
+    left: -30px;
+}
+.four .button {
+    position: relative;
+    left: -30px;
+}
+.picbtn {
+    background-color: #000;
+    color:  rgb(181, 37, 37) ;
+}
+.last {
+    position: relative;
+    left: 95px;
+    fill: rgb(181, 37, 37);
+    bottom: 36px;  
+}
+.l1 {
+    position: relative;
+    left: 115px;
+}
+.r {
+    position: relative;
+    left: 700px;
+    bottom: 50px;
+}
+.r button {
+    border: none;
+}
+.h4 {
+ position: relative;
+ left:50px;
+ top:30px;
+}
+.end {
+    position: relative;
+    left: 150px;
+    width: 980px;
+    height: 200px;
+    background-color: rgb(40, 39, 39) ;
+}
+.lastpart {
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+.handles {
+    position: relative;
+    left: 450px;  
+    top: 10px;
+} 
+.handle {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;  
+}
+.lp {
+    position: relative;
+    bottom: 5px;
+    left: 100px;
+}
+.button {
+    position: relative;
+    top: 10px;
+}
+.last {
+    position: relative;
+    top: -18px;
+}
+.FOOTER {
+    display: flex;
+    background-color:  rgb(40, 39, 39);
+    position: relative;
+    right: 5px;
+    width: 1500px;
+    height: 50px;
+    top: 50px;
+}
+/* @media(max-width:998px) {
+    html {
+        font-size: 55%;
+    }
+  }
+  @media(max-width:768px) {
+    html {
+        font-size: 45%;
+    }
+} */
+@media screen and (max-width:1230px){
+    .nav-items {
+        position: relative;
+        left: -200px;
+    }
+    .right1 {
+        position: relative;
+        left: 100px;
+        top: 100px;
+        text-align: start;
+    }
+    .right1 p {
+        position: relative;
+        left: -1px;
+    }
+    .section2 {
+        position: relative;
+        left: -70px;
+    }
+    .lower{
+        position: relative;
+        left: -70px;
+    }
+    .section3 {
+        position: relative;
+        left: -70px;
+    }
+    .end {
+        position: relative;
+        left: 90px;
+    }
+    .lp {
+        position: relative;
+        left: -70px;
+    }
+}
+@media screen and (max-width:1000px){
+    .nav-items {
+        position: relative;
+        left: -400px;
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 150px;
+    }
+    /* .right1 {
+        position: relative;
+        left: 100px;
+        top: 100px;
+        text-align: start;
+    }
+    .right1 p {
+        position: relative;
+        left: -1px;
+    } */
+    .upper{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start
+    }
+    .b3,.b2,.b1{
+        position: relative;
+        left: 100px;
+        width: 600px;
+    }
+    .section2 {
+        position: relative;
+        left: -70px;
+    }
+    .lower{
+        position: relative;
+        left: -70px;
+        display: flex;
+        flex-direction: column;
+    }
+    .years{
+        position: relative;
+    left: 70px;
+    top: -40px; 
+    }
+    .years h1,.years p {
+        font-size: 100px;
+    }
+    .fourboxes {
+        position: relative;
+        left: 180px;
+    }
+
+    /* .section3 {
+        position: relative;
+        left: -70px;
+ 
+    } */
+    .btn3{
+        position: relative;
+        bottom: 40px;
+        left: 520px; 
+    }
+    /* .end {
+        position: relative;
+        left: 90px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    } */
+    .r {
+        position: relative;
+        left: 180px;
+        bottom: -50px;
+    }
+    .h4 {
+     position: relative;
+     left:10px;
+     text-align: center;
+     top:30px;
+    }
+    .h4 p{
+        display: none;
+    }
+    .lp {
+        position: relative;
+        left: -70px;
+    }
+    .imgup,.imgdown {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .end{
+        width: 500px;
+        position: relative;
+        left: 150px;
+    }
+    .lastpart{
+        margin: 0 5px;
+    }
+    .logolast{
+        display: none;
+    }
+    .handles{
+        position: relative;
+        left: 300px;  
+    }
+}
+@media screen and (max-width:700px){
+    .nav-items {
+        position: relative;
+        left: -520px;
+    }
+    .navitem{
+        margin: 0 5px;
+    }
+    .logo svg{
+        width: 60px;
+        position: relative;
+        bottom: 10px;
+    }
+
+   .right1 {
+        position: relative;
+        left: 10px;
+        top: 100px;
+        text-align: start;
+    }
+    .right1 p {
+        position: relative;
+        left: -1px;
+        text-align: start;
+    }
+    .designer {
+        position: relative;
+        left: -100px;
+    }
+    
+    .b3,.b1,.b2{
+        position: relative;
+        left: 50px;
+    }
+    
+    .section2 {
+        position: relative;
+        left: -70px;
+    }
+    .lower{
+        position: relative;
+        left: -70px;
+        display: flex;
+        flex-direction: column;
+    }
+    .years{
+        position: relative;
+    left: 70px;
+    top: -40px; 
+    }
+    .years h1,.years p {
+        font-size: 100px;
+    }
+    .fourboxes {
+        position: relative;
+        left: 180px;
+
+    }
+    .up,.down{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .z{
+        margin-bottom: 20px;
+        position: relative;
+        left: 50px;
+    }
+    .btn3{
+        position: relative;
+        bottom: 0px;
+        left: 200px; 
+    }
+   .r {
+        position: relative;
+        left: 80px;
+        bottom: -50px;
+    } 
+    .header3 h1{
+        margin-left: 50px;
+    }
+    .h4 {
+     position: relative;
+     left:-10px;
+     text-align: center;
+     top:30px;
+    }
+    .h4 p{
+        display: none;
+    }
+    .lp {
+        position: relative;
+        left: -230px;
+    }
+    .imgup,.imgdown {
+     position: relative;
+     left: 50px;
+    }
+    .end{
+        width: 400px;
+        position: relative;
+        left: 50px;
+    }
+
+    .handles{
+        position: relative;
+        left: 150px;  
+    }
+}
